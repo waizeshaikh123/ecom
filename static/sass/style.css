@@ -1,1 +1,109 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Dancing+Script:wght@400;500;600;700&family=Jost&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.top-nav .container-fluid {
+  padding: 0 6rem;
+}
+.top-nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+.top-nav .icon-link a {
+  color: #4c4646;
+  font-size: 1rem;
+}
+
+.sec-bar a {
+  text-decoration: none;
+  color: #272626;
+  font-size: 17px;
+  font-weight: 900;
+}
+.sec-bar a i {
+  font-size: 1.7rem;
+}
+
+.shop-now a {
+  text-decoration: none;
+  color: burlywood;
+  border-bottom: 3px solid burlywood;
+  border-radius: 0px 0px 10px 10px;
+  transition: ease-in-out 0.3s;
+}
+.shop-now a:hover {
+  letter-spacing: 1px;
+}
+
+.cara {
+  position: relative;
+}
+.cara .bg-img1 {
+  width: 100%;
+  height: 100vh;
+  background: url(/static/images/bg_images/slider2.jpg) no-repeat;
+  background-size: cover;
+}
+.cara .bg-img2 {
+  width: 100%;
+  height: 100vh;
+  background: url(/static/images/bg_images/slider4.jpg) no-repeat;
+  background-size: cover;
+}
+.cara .fashion {
+  position: relative;
+}
+.cara .fashion .fsh {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 1px;
+}
+.cara .fashion .fsh a {
+  position: absolute;
+  top: 100%;
+  left: 35%;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1rem;
+  color: burlywood;
+  transition: ease-in 0.3s;
+}
+.cara .fashion img {
+  filter: blur(1px);
+  transition: ease-in-out 0.4s;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.cara .fashion h1 {
+  color: rgb(2, 2, 2);
+  position: absolute;
+  top: 75%;
+  left: 15%;
+  font-weight: 0;
+}
+.cara .fashion .fsh:hover a {
+  top: 86%;
+}
+.cara .fashion .fsh img:hover {
+  scale: 1.01;
+  filter: blur(0);
+}
+.cara .trend-link a {
+  text-decoration-line: none;
+  font-size: 1.2rem;
+  color: #000;
+}/*# sourceMappingURL=style.css.map */

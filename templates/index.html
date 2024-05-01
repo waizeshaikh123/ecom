@@ -8,7 +8,16 @@
     <meta name="Description" content="Enter your description here" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Jost&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+        integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/static/sass/style.css">
+    <link rel="stylesheet" href="/static/css/res.css">
     <title>ecommerce-web</title>
 </head>
 
@@ -16,10 +25,206 @@
 
     <!-- header section start -->
     <nav>
-        
+        <section class="top-nav">
+            <!-- Top-nav-bar  -->
+            <div class="container-fluid">
+                <div class="row pt-1">
+                    <div class="col-lg-6 col-md-6 ">
+                        <ul class="nav-link d-flex justify-content-start align-items-center gap-5 ms-0 list-unstyled">
+                            <li><a href="/" class="nav-item ">About Us</a></li>
+                            <li><a href="/" class="nav-item ">Privacy</a></li>
+                            <li><a href="/" class="nav-item ">FAQ</a></li>
+                            <li><a href="/" class="nav-item ">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <ul class="nav-link d-flex justify-content-end align-items-center gap-3 ms-0 list-unstyled">
+                            <li><a href="/" class="nav-item ">My Wishlist</a></li>
+                            <div class="vr"></div>
+                            <li><a href="/" class="nav-item ">Track Your Order</a></li>
+                            <div class="vr"></div>
+                            <div class=" d-flex gap-3 icon-link">
+                                <a href="/"><i class="ri-facebook-circle-line"></i></a>
+                                <a href="/"><i class="ri-instagram-line"></i></i></a>
+                                <a href="/"><i class="ri-twitter-x-fill"></i></a>
+                                <a href="/"><i class="ri-linkedin-fill"></i></a>
+                                <a href="/"><i class="ri-youtube-fill"></i></a>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div style="width: 100%; height:1px; background:#5553533b;margin-top:-10px"></div>
+        </section>
+
+        <!-- secound-nav-bar -->
+        <section class="sec-bar d-flex justify-content-between align-items-center gap-5" style="padding:17px 7rem; ">
+            <a href="/index">
+                <img src="/static/images/logo_images/logo.png.webp" alt="logo_img">
+            </a>
+            <ul class=" d-flex gap-4 align-items-end list-unstyled">
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Men</a></li>
+                <li><a href="/">Women</a></li>
+                <li class=" position-relative"><a href="/">Baby Collection</a>
+                    <span class="position-absolute top-0 start-100 translate-middle   badge bg-danger">
+                        New
+                    </span>
+                </li>
+                <div class="dropdown">
+                    <a class="btn bg-transparent dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        page
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Login</a></li>
+                        <li><a class="dropdown-item" href="#">Cart</a></li>
+                        <li><a class="dropdown-item" href="#">Product Details</a></li>
+                        <li><a class="dropdown-item" href="#">Product Checkout</a></li>
+                    </ul>
+                </div>
+                <li><a href="/">Blog</a></li>
+                <li><a href="/">Contact</a></li>
+            </ul>
+
+            <div class=" d-flex gap-4">
+                <a href="/"><i class="ri-search-line"></i></a>
+                <a href="/"><i class="ri-user-6-line"></i></a>
+                <a href="/" class=" position-relative"><i class="ri-shopping-cart-2-line"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle   badge rounded-circle bg-danger">
+                        1
+                    </span></a>
+            </div>
+        </section>
+
+        <section class=" bg-dark shop-now">
+            <p class="m-0 py-3 text-center text-white">Sale Up To 50% Biggest Discounts. Hurry! Limited Perriod Offer <a
+                    href="/">Shop Now</a></p>
+        </section>
     </nav>
     <!-- header section end -->
 
+    <!-- hero-section  start -->
+    <section class="cara">
+
+        <!-- carousol-section -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class=bg-img1>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 d-flex justify-content-start">
+                                    <div class=" text-center" style="margin:13rem 0">
+                                        <h4 class=" text-danger"
+                                            style="font-family: Clicker Script, cursive; font-weight:600; font-size:2.8rem">
+                                            Fashion Sale</h4>
+                                        <h3 style="font-size: 2.3rem; font-weight:600; letter-spacing:3px">Minimal Menz
+                                            Style</h3>
+                                        <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+                                            <br>
+                                            explicabo
+                                            fugiat veniam nemo sed.
+                                        </p>
+                                        <button class=" bg-dark text-white btn fs-6 px-4 py-2 mx-auto">SHOP NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class=bg-img2>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 d-flex justify-content-end">
+                                    <div class=" text-center" style="margin:13rem 0  ">
+                                        <h4 class=" text-danger"
+                                            style="font-family: Clicker Script, cursive; font-weight:600; font-size:2.8rem">
+                                            Fashion Sale</h4>
+                                        <h3 style="font-size: 2.3rem; font-weight:600; letter-spacing:3px">Minimal Menz
+                                            Style</h3>
+                                        <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+                                            <br>
+                                            explicabo
+                                            fugiat veniam nemo sed.
+                                        </p>
+                                        <button class=" bg-dark text-white btn fs-6 px-4 py-2 mx-auto">SHOP NOW</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Fashion - section -->
+        <div class="container fashion">
+            <div class="row">
+                <div class="col-lg-4 flex-wrap">
+                    <div class="py-4 fsh">
+                        <img src="/static/images/front_images/items1.jpg.webp" alt="item1" class=" img-fluid">
+                        <h1>Men`s Fashion</h1>
+                        <a href="/">Shop Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 flex-wrap">
+                    <div class="py-4 fsh">
+                        <img src="/static/images/front_images/items2.jpg.webp" alt="item1" class=" img-fluid">
+                        <h1>Women`s Fashion</h1>
+                        <a href="/">Shop Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 flex-wrap">
+                    <div class="py-4 fsh">
+                        <img src="/static/images/front_images/items3.jpg.webp" alt="item1" class=" img-fluid">
+                        <h1>Baby Fashion</h1>
+                        <a href="/">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Trending-section -->
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class=" fw-bold">Trending This Week</h2>
+                </div>
+                <div class="col-lg-6">
+                    <div class="trend-link d-flex justify-content-end align-items-end gap-5">
+                        <a href="/">Men</a>
+                        <a href="/">Women</a>
+                        <a href="/">Baby</a>
+                        <a href="/">Fashion</a>
+                    </div>
+                </div>
+            </div>
+            <hr class=" bg-secondary">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- hero-section  send -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
 </body>
