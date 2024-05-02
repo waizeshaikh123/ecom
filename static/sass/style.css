@@ -127,4 +127,40 @@ html, body {
 }
 .cara .trend-link a:hover::after {
   display: block;
+}
+.cara .swiper-slide .card {
+  position: relative;
+  overflow: hidden;
+}
+.cara .swiper-slide .card img {
+  transition: ease-in-out 0.3s;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.cara .swiper-slide .card img:hover {
+  scale: 1.03;
+}
+.cara .swiper-slide .card a {
+  color: #000;
+}
+.cara .add-wish {
+  position: absolute;
+  top: 57%;
+  left: 19%;
+  z-index: 999;
+  border: none;
+}
+.cara .add-wish a {
+  padding: 2px 13px;
+  text-decoration: none;
+  color: #000;
+  transition: ease-in-out 0.3s;
+}
+.cara .add-wish a i:hover {
+  color: white;
+}
+.cara .add-wish a:hover {
+  background: red;
 }/*# sourceMappingURL=style.css.map */
