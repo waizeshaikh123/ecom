@@ -9,4 +9,9 @@
         flex-direction: column;
         gap: 0;
     }
+    .fsh{
+        h1{
+            font-size: 10px;
+        }
+    }
 }

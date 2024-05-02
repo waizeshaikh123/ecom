@@ -74,36 +74,57 @@ html, body {
   position: absolute;
   top: 100%;
   left: 35%;
-  font-weight: 600;
+  font-weight: 800;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: burlywood;
   transition: ease-in 0.3s;
 }
 .cara .fashion img {
-  filter: blur(1px);
   transition: ease-in-out 0.4s;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+  filter: brightness(0.75);
 }
 .cara .fashion h1 {
-  color: rgb(2, 2, 2);
+  color: #fff;
   position: absolute;
-  top: 75%;
-  left: 15%;
-  font-weight: 0;
+  z-index: 2;
+  top: 73%;
+  left: 24%;
+  font-size: 30px;
+  font-weight: 700;
 }
 .cara .fashion .fsh:hover a {
   top: 86%;
 }
 .cara .fashion .fsh img:hover {
   scale: 1.01;
-  filter: blur(0);
+  filter: brightness(0.8);
 }
 .cara .trend-link a {
+  position: relative;
   text-decoration-line: none;
   font-size: 1.2rem;
   color: #000;
+}
+.cara .trend-link a:hover {
+  color: red;
+}
+.cara .trend-link a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  border-radius: 10%;
+  background: red;
+  left: 0px;
+  bottom: -2.2rem;
+  transition: ease-in-out 0.2s;
+  display: none;
+}
+.cara .trend-link a:hover::after {
+  display: block;
 }/*# sourceMappingURL=style.css.map */
