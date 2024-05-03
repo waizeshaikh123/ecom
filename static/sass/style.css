@@ -28,7 +28,7 @@ html, body {
 .sec-bar a {
   text-decoration: none;
   color: #272626;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 900;
 }
 .sec-bar a i {
@@ -128,39 +128,99 @@ html, body {
 .cara .trend-link a:hover::after {
   display: block;
 }
-.cara .swiper-slide .card {
+
+.swiper-slide .card {
   position: relative;
   overflow: hidden;
 }
-.cara .swiper-slide .card img {
+.swiper-slide .card img {
   transition: ease-in-out 0.3s;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
 }
-.cara .swiper-slide .card img:hover {
+.swiper-slide .card img:hover {
   scale: 1.03;
 }
-.cara .swiper-slide .card a {
+.swiper-slide .card a {
   color: #000;
 }
-.cara .add-wish {
+
+.add-wish {
   position: absolute;
   top: 57%;
   left: 19%;
   z-index: 999;
   border: none;
 }
-.cara .add-wish a {
+.add-wish a {
   padding: 2px 13px;
   text-decoration: none;
   color: #000;
   transition: ease-in-out 0.3s;
 }
-.cara .add-wish a i:hover {
+.add-wish a i:hover {
   color: white;
 }
-.cara .add-wish a:hover {
+.add-wish a:hover {
   background: red;
+}
+
+.testimonial-section {
+  width: 100%;
+  height: 70vh;
+  background: #F3EAD8;
+}
+
+.latest-news {
+  width: 100%;
+  height: auto;
+  background: #F6F6F6;
+}
+.latest-news .latest .curling {
+  color: #000;
+  transition: ease-in 0.2s;
+}
+.latest-news .latest .curling:hover {
+  color: red;
+}
+.latest-news .latest .read {
+  transition: ease-in-out 0.3s;
+  text-decoration: underline;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.latest-news .latest .read:hover {
+  letter-spacing: 0.5px;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #171613;
+  color: #BBB9B5;
+}
+.footer .foot-icon a {
+  text-decoration: none;
+  color: rgba(134, 134, 231, 0.467);
+  transition: ease-in-out 0.3s;
+}
+.footer .foot-icon a:hover {
+  color: red;
+  transform: rotateY(150deg);
+}
+.footer .lis ul li {
+  cursor: pointer;
+  color: #BBB9B5;
+  margin: 10px 0;
+  font-weight: 500;
+  color: #F3EAD8;
+  font-size: 14px;
+  transition: ease-in 0.3s;
+}
+.footer .lis ul li:hover {
+  letter-spacing: 1px;
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */

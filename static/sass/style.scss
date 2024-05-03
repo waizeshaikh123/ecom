@@ -28,7 +28,7 @@ html,body{
     a{
         text-decoration: none;
         color: #272626;
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 900;
     }
     a i{
@@ -124,7 +124,8 @@ html,body{
     .trend-link a:hover::after{
         display: block;
     }
-    .swiper-slide{
+}
+.swiper-slide{
         .card{
             position: relative;
             overflow: hidden;
@@ -159,5 +160,63 @@ html,body{
         a:hover{
             background: red;
         }
+    }
+.testimonial-section{
+    width: 100%;
+    height: 70vh;
+    background: #F3EAD8;
+}
+.latest-news{
+    width: 100%;
+    height: auto;
+    background: #F6F6F6;
+    .latest{
+        .curling{
+            color: #000;
+            transition: ease-in 0.2s;
+        }
+        .curling:hover{
+            color: red;
+        }
+        .read{
+            transition: ease-in-out 0.3s;
+            text-decoration:underline;
+            font-size: 18px;
+            text-transform: capitalize;
+        }
+        .read:hover{
+            letter-spacing: 0.5px;
+        }
+    }
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #171613;
+    color:#BBB9B5;
+
+    .foot-icon a{
+        text-decoration: none;
+        color: rgba(134, 134, 231, 0.467);
+        transition: ease-in-out 0.3s;
+    }
+    .foot-icon a:hover{
+        color: red;
+        transform:rotateY(150deg);
+    }
+    .lis ul li{
+        cursor: pointer;
+        color: #BBB9B5;
+        margin: 10px 0;
+        font-weight: 500;
+        color:#F3EAD8;
+        font-size: 14px;
+        transition: ease-in 0.3s;
+    }
+    .lis ul li:hover{
+        letter-spacing: 1px;
+        text-decoration: underline;
     }
 }
